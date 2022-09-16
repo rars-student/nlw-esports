@@ -1,9 +1,9 @@
 import "./styles/main.css";
 
-import logoImg from "./assets/logo-nlw-esports.png";
+import logoImg from "./assets/logo-nlw-esports@3x.png";
 function App() {
   return (
-    <div className="w-1 h-8 bg-black dark:bg-slate-500">
+    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
       <img src={logoImg} alt="" />
     </div>
   );
