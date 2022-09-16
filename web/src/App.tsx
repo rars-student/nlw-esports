@@ -1,11 +1,69 @@
 import "./styles/main.css";
 
-import logoImg from "./assets/logo-nlw-esports@3x.png";
+import logoImg from "./assets/logo-nlw-esports.png";
 function App() {
   return (
-    <div className="max-w-[344px] mx-auto flex flex-col items-center my-20">
+    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
       <img src={logoImg} alt="Logo eSports" />
-      <h1 className="text-6x1 text-white font-black mt-20">Seu duo esta aqui</h1>
+      <h1 className="text-6xl text-white font-black mt-20">
+        Seu <span className="text-transparent bg-clip-text bg-nlw-gradient">duo</span> esta aqui
+      </h1>
+
+      <div className="grid grid-cols-6 gap-6 mt-16">
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-1.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">League of Legends</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+        
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-2.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">Dota 2</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-3.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">Counter Strike</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-4.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">APEX Legends</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-5.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">Fortnite</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+
+        <a href="" className="relative rounded-lg overflow-hidden">
+          <img src="/game-6.png" alt="" />
+
+          <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
+            <strong className="font-bold text-white block">WoW</strong>
+            <strong className="text-zinc-300 text-sm block">4 anúncios</strong>
+          </div>
+        </a>
+      </div>
     </div>
   );
 }
