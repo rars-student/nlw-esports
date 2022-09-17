@@ -64,6 +64,10 @@ function App() {
           </div>
         </a>
       </div>
+
+      <div className="bg-[#2A2634] px-8 py-6">
+        
+      </div>
     </div>
   );
 }
