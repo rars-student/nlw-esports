@@ -1,19 +1,14 @@
-
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "react-native";
+import { Background } from "./src/components/backgrounds";
 
 export default function App() {
   return (
-    <View>
-
-    </View>
+    <Background>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+    </Background>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
